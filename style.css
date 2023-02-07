@@ -1,5 +1,5 @@
 @font-face {font-family: asap; src: url(./Asap-VariableFont_wdth\,wght.ttf);}
-
+@font-face {font-family: gsans; src: url(./OpenSans-VariableFont_wdth\,wght.ttf);}
 * { 
     box-sizing: border-box;
     padding: 0px;
@@ -8,6 +8,9 @@
     scroll-behavior: smooth;
 }
 
+body {
+  background-color: white;
+}
 
 
 /* HEADER */
@@ -19,7 +22,9 @@ header {
     display: flex;
     flex-direction: column;
     box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.4);
-
+    position: fixed;
+    top: 0;
+    z-index: 10;
 }
 
 #top {
@@ -228,25 +233,28 @@ height: 100%;
 /*  MAIN  */
 /*  MAIN  */
 main {
+
     overflow: hidden;
     display: flex;
-color: white;
-height: calc(100vh - 300px);
-margin-top: 80px;
-background-image: url(/fitness-main-img.jpg);
-background-repeat: no-repeat;
-background-position: center;
-background-size: cover;
-flex-direction: column;
-box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.4);
-/* border-top: 1px solid rgb(60, 60, 60); */
+    color: white;
+    height: calc(100vh - 300px);
+    margin-top: 220px;
+    background-image: url(/fitness-main-img.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    flex-direction: column;
+    box-shadow: 0px -2px 4px rgba(0, 0, 0, 0.4);
+    /* border-top: 1px solid rgb(60, 60, 60); */
     
 }
 #main-container {
     max-width: 700px ;
     margin: 36px;
+   
 
 }
+
 #main-container h1 img{
    width: 400px;
    filter: drop-shadow(1px 1px 1px black)
@@ -258,16 +266,17 @@ box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.4);
     /* background-color: rgba(0, 0, 0, 0.3); */
     border-radius: 4px;
     padding: 8px;
+    font-weight: 600;
     color: rgb(255, 255, 255);
-    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.7);
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.4);
     /* backdrop-filter: blur(8px); */
-    border: 1px solid rgba(199, 199, 199, 0.4);
+    /* border: 1px solid rgba(199, 199, 199, 0.4); */
     /* z-index: 10; */
 } 
 
 
 #main-btn {
-    background-color: rgba(25, 25, 25, 0.9);
+    background-color: rgba(25, 25, 25, 1);
     border-radius: 8px;
     display: flex;
     justify-content: center;
@@ -280,7 +289,7 @@ box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.4);
 }
 
 #main-btn:hover {
-    background-color: rgba(255, 255, 255, 0.3);
+    background-color: rgba(25, 25, 25, 0.3);
 }
 
 #main-btn a {
@@ -293,12 +302,26 @@ box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.4);
 
 
 
+
+
+
+
+
+
+
+
+
+#divisoria1 {
+    width: 100%;
+    height: 120px;
+    background-color: rgb(140, 140, 140);
+}
 /* MAIN PARA LOJISTAS */
 /* MAIN PARA LOJISTAS */
 /* MAIN PARA LOJISTAS */
 #main-para-lojistas {
     color: white;
-    margin-top: 80px;
+    /* margin-top: 80px; */
     width: 100%;
     height: 800px;
     background: rgba(255, 119, 0, 0.9);
@@ -315,12 +338,14 @@ box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.4);
 
 #para-lojistas-top h1{
     font-size: 4rem;
- text-shadow: 1px 1px 1px black;
+ text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.3);
 }
 #para-lojistas-top p{
-    text-shadow: 1px 1px 1px black;
-
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.3);
+    text-align: justify;
     width: 70%;
+    font-family: 'gsans';
+    font-weight: 600;
 }
 
 #para-lojistas-top-header {
@@ -458,10 +483,13 @@ footer {
     #bottom-right ul li {margin: 2px; font-size: 12px;text-align: center;}
     main {
         height: 90vh;
-   
+        /* background-size:500%; */
+        margin-top: 120px;
     }
+
     #top-left ul li {font-size: 12px;}
     header {height: 92px;}
     #bottom {height: 60px;}
     #bottom-left img {width: 100px; height: 100px;margin-top: -20px;}
+    
 }
