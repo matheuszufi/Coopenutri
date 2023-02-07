@@ -1,0 +1,300 @@
+@font-face {font-family: asap; src: url(./Asap-VariableFont_wdth\,wght.ttf);}
+
+* { 
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+    font-family: 'asap';
+}
+
+
+
+/* HEADER */
+/* HEADER */
+/* HEADER */
+header {
+    width: 100%;
+    height: 140px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.4);
+
+}
+
+#top {
+    background: rgb(255, 120, 0);
+    width: 100%;
+    height: 32px;
+    display: flex;
+    align-items: center;
+
+}
+#top-left {
+    width: 30%;
+}
+
+#header-top-container {
+    padding: 0px 24px;
+    display: flex;
+    width: 100%;
+    /* background-color: white; */
+}
+
+
+
+#top-left ul {
+    display: flex;
+    color: white;
+    height: 100%;
+    font-family: 'asap';
+    /* background-color: aliceblue; */
+    align-items: center;
+}
+
+#top-left ul li {
+    list-style: none;
+    padding: 7px 20px;
+    /* width: 250px; */
+    text-align: center;
+    cursor: pointer;
+    
+}
+#top-left ul li:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+#top-li-1 {
+    background-color: rgba(0, 0, 0, 0.1);
+    font-weight: 600;
+}
+#top-li-3 {
+    background-color: rgba(255, 255, 255, 0.3);
+}
+
+
+
+#top-right {
+    display: flex;
+    justify-content: end;
+    color: white;
+    font-family: asap;
+    align-items: center;
+    margin: 0px 40px;
+    /* background-color: wheat; */
+    width: 70%;
+    
+    
+}
+
+#top-right input {
+    margin-left: 8px;
+    height: 24px;
+    border-radius: 4px;
+    border: 1px solid grey;
+    padding: 12px;
+    width: 150px;
+    color: rgb(49, 49, 49);
+    font-family: 'asap';
+ 
+}
+
+#top-right input::placeholder {
+    font-family: 'asap';
+    padding: 4px;
+}
+#top-right i {
+
+    margin-left: 8px;
+}
+
+
+
+
+#bottom {
+    width: 100%;
+    height: 108px;
+    background: rgb(239, 142,0);
+    display: flex;
+    
+}
+#bottom-container {
+    padding: 0px 24px;
+    display: flex;
+    width: 100%;
+}
+
+
+
+#bottom-left img {
+    width: 100px;
+
+}
+
+#bottom-left {
+    width: 20%; 
+    display: flex;
+    justify-content: center;
+    height: 100%;
+}
+#bottom-right {
+    width: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+
+
+}
+#bottom-right ul {
+    display: flex;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+}
+#bottom-right ul li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    color: white;
+    font-family: 'asap';
+    margin: 0px 20px;
+    padding: 0px 20px;
+    height: 100%;
+    cursor: pointer;
+    font-weight: 700;
+    /* font-size: 20px; */
+}
+
+#bottom-right ul li:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*  MAIN  */
+/*  MAIN  */
+/*  MAIN  */
+main {
+    overflow: hidden;
+    display: flex;
+color: white;
+height: calc(100vh - 300px);
+margin-top: 80px;
+background-image: url(/fitness-main-img.jpg);
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+flex-direction: column;
+box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.4);
+/* border-top: 1px solid rgb(60, 60, 60); */
+    
+}
+#main-container {
+    max-width: 700px ;
+    margin: 36px;
+
+}
+#main-container h1{
+    font-size: 4rem;
+    text-shadow: 1px 1px 1px black;
+}
+#main-container p{
+    margin: 12px 0px;
+    text-align: justify;
+    line-height: 28px;
+    background-color: rgba(255, 255, 255, 0.3);
+    border-radius: 4px;
+    padding: 8px;
+    color: rgb(255, 255, 255);
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 1);
+    backdrop-filter: blur(8px);
+    /* z-index: 10; */
+} 
+
+
+#main-btn {
+    background-color: rgba(255, 153, 0, 0.759);
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    height: 40px;
+    align-items: center;
+    font-weight: 700;
+
+}
+
+
+
+
+
+
+
+
+/* MAIN PARA LOJISTAS */
+/* MAIN PARA LOJISTAS */
+/* MAIN PARA LOJISTAS */
+#main-para-lojistas {
+    color: white;
+    margin-top: 80px;
+    width: 100%;
+    height: 800px;
+    background: rgba(255, 119, 0, 0.9);
+    padding: 36px;
+}
+
+#para-lojistas-top h1{
+ 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* FOOTER */
+/* FOOTER */
+/* FOOTER */
+footer {
+    margin-top: 80px;
+    background-color: rgb(98, 98, 98);
+    width: 100%;
+    height: 200px;
+}
+
+
+
+
+
+
+
+@media only screen and (max-width: 1000px) {
+
+}
