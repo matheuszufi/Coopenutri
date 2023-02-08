@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
 @font-face {font-family: asap; src: url(./Asap-VariableFont_wdth\,wght.ttf);}
 @font-face {font-family: gsans; src: url(./OpenSans-VariableFont_wdth\,wght.ttf);}
 * { 
@@ -53,7 +55,7 @@ header {
     display: flex;
     color: white;
     height: 100%;
-    font-family: 'asap';
+    font-family: 'Roboto';
     /* background-color: aliceblue; */
     align-items: center;
 
@@ -238,7 +240,7 @@ main {
     display: flex;
     color: white;
     height: calc(100vh - 300px);
-    background-color: rgba(255, 199, 86, 1);
+    background: rgb(255, 163, 26);
     margin-top: 0px;
     justify-content: center;
     /* align-items: center; */
@@ -300,9 +302,8 @@ main {
     font-weight: 600;
     color: rgb(255, 255, 255);
     text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.4);
-    /* backdrop-filter: blur(8px); */
-    /* border: 1px solid rgba(199, 199, 199, 0.4); */
-    /* z-index: 10; */
+
+
 } 
 
 
@@ -386,7 +387,7 @@ main {
     text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.4);
     text-align: justify;
     width: 70%;
-    font-family: 'gsans';
+    font-family: 'Roboto';
     font-weight: 600;
 }
 
