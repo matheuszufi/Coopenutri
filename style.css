@@ -530,7 +530,7 @@ footer {
     #bottom-left {scale: 0.7;}
     #bottom-right ul li {margin: 2px; font-size: 12px;text-align: center;}
     main {
-        height: 110vh;
+        height: 1100px;
         align-items: start;
         justify-content: start;
         /* background-size:500%; */
@@ -545,7 +545,7 @@ footer {
     #main-container-right img {
         width: 100px;
         /* margin: -90px; */
-        margin-top: -400px;
+        margin-top: -250px;
     }
 
 }
