@@ -240,7 +240,8 @@ main {
     display: flex;
     color: white;
     height: calc(100vh - 300px);
-    background: rgb(255, 163, 26);
+    /* background: rgb(255, 163, 26); */
+    background: rgb(234, 234, 234);
     margin-top: 0px;
     justify-content: center;
     /* align-items: center; */
@@ -300,7 +301,7 @@ main {
     border-radius: 4px;
     padding: 8px;
     font-weight: 600;
-    color: rgb(255, 255, 255);
+    color: rgb(20, 20, 20);
     text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.4);
 
 
@@ -315,7 +316,7 @@ main {
     height: 40px;
     align-items: center;
     font-weight: 700;
-    text-shadow: 1px 1px 1px rgb(0, 0, 0);
+    text-shadow: 1px 1px 1px rgb(255, 255, 255);
     border: 1px solid rgba(0, 0, 0, 0.2);
     transition: 0.4s;
 }
@@ -489,7 +490,7 @@ footer {
         width: 80%;
         justify-content: space-around;
     }
-    #bottom-right ul {width: 100%; justify-content: center;}
+    #bottom-right ul {width: 100%; justify-content: end; padding: 24px}
     #bottom-right ul li {margin: 4px; font-size: 16px;text-align: center;}
     #divhidden {display: none;}
     #main-container h1 img{width: 300px;}
