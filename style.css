@@ -240,7 +240,7 @@ main {
     background-color: rgba(255, 199, 86, 1);
     margin-top: 0px;
     justify-content: center;
-    align-items: center;
+    /* align-items: center; */
     /* background-image: url(/fitness-main-img.jpg); */
     /* background-repeat: no-repeat; */
     /* background-position: center; */
@@ -259,11 +259,11 @@ main {
 }
 
 #main-container-left {
-    max-width: 500px;
+    max-width: 600px;
 }
 
 #main-container-right {
-    width: 50%;
+    max-width: 800px;
     height: 100%;
     display: flex;
     justify-content: center;
@@ -280,6 +280,7 @@ main {
 #main-container-right img {
     width: 600px;
     margin: -180px;
+    transition: 0.4s;
 }
 #heroimg {
     width: 600px;
@@ -439,9 +440,18 @@ footer {
 
 
 
-
-
-
+@media only screen and (max-width: 1400px) {
+    #main-container-right img {
+        width: 400px;
+        margin: -100px;
+    }
+    #main-container-left {
+        max-width: 500px;
+    }
+    #main-container {
+        justify-content: center;
+    } 
+}
 
 
 
@@ -481,7 +491,7 @@ footer {
     #main-container h1 img{width: 300px;}
     main {
         height: 75vh;
-        margin-top: 30px;
+        margin-top: 0px;
     /* background-size: 500%; */
     }
     #main-container h1 {font-size: 2rem;}
@@ -525,13 +535,21 @@ footer {
     #bottom-right ul li {margin: 2px; font-size: 12px;text-align: center;}
     main {
         height: 90vh;
+        align-items: start;
+        justify-content: start;
         /* background-size:500%; */
-        margin-top: -20px;
+        /* margin-top: -20px; */
     }
 
     #top-left ul li {font-size: 12px;}
     header {height: 92px;}
     #bottom {height: 60px;}
     #bottom-left img {width: 100px; height: 100px;margin-top: -20px;}
-    
+ 
+    #main-container-right img {
+        width: 300px;
+        margin: -90px;
+        margin-top: -300px;
+    }
+
 }
