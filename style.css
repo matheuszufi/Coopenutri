@@ -285,6 +285,7 @@ main {
     width: 600px;
     margin: -180px;
     transition: 0.4s;
+    filter: drop-shadow(4px 1px 4px black);
 }
 #heroimg {
     width: 600px;
@@ -302,7 +303,7 @@ main {
     padding: 8px;
     font-weight: 600;
     color: rgb(20, 20, 20);
-    text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.4);
+    text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.2);
 
 
 } 
@@ -316,7 +317,7 @@ main {
     height: 40px;
     align-items: center;
     font-weight: 700;
-    text-shadow: 1px 1px 1px rgb(255, 255, 255);
+    text-shadow: 1px 1px 1px rgb(0, 0, 0);
     border: 1px solid rgba(0, 0, 0, 0.2);
     transition: 0.4s;
 }
@@ -389,11 +390,14 @@ main {
 #para-lojistas-top p{
     text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.4);
     text-align: justify;
-    width: 70%;
+    width: 95%;
     font-family: 'Roboto';
     font-weight: 600;
 }
 
+#para-lojistas-top img {
+    width: 100%;
+}
 #para-lojistas-top-header {
     /* background-color: red; */
     display: flex;
@@ -543,7 +547,7 @@ footer {
         align-items: start;
         justify-content: start;
         /* background-size:500%; */
-        margin-top: -40px;
+        margin-top: -50px;
     }
 
     #top-left ul li {font-size: 12px;}
