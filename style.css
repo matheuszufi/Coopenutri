@@ -301,7 +301,7 @@ main {
     /* background-color: rgba(0, 0, 0, 0.3); */
     border-radius: 4px;
     padding: 8px;
-    font-weight: 600;
+    font-weight: 400;
     color: rgb(20, 20, 20);
     text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.2);
 
@@ -392,11 +392,11 @@ main {
     text-align: justify;
     width: 95%;
     font-family: 'Roboto';
-    font-weight: 600;
+    font-weight: 400;
 }
 
 #para-lojistas-top img {
-    width: 500px;
+    width: 600px;
 }
 #para-lojistas-top-header {
     /* background-color: red; */
@@ -508,23 +508,9 @@ footer {
     #main-container p {font-size: 0.9rem;}
 
 
-    #divhidden-300 {
-        /* background-color: red; */
-        height: 100%;
-        width: 60%;
-        display: flex;
-        justify-content: space-around;
-    }
-
-
-
-
-
 
 
 }
-
-
 
 
 
