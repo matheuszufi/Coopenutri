@@ -291,7 +291,7 @@ main {
     width: 600px;
 }
 #main-container h1 img{
-   width: 400px;
+   width: 100px;
    filter: drop-shadow(1px 1px 1px black)
 }
 #main-container p{
@@ -396,7 +396,7 @@ main {
 }
 
 #para-lojistas-top img {
-    width: 600px;
+    width: 150px;
 }
 #para-lojistas-top-header {
     /* background-color: red; */
@@ -543,8 +543,8 @@ footer {
     #bottom-left img {width: 100px; height: 100px;margin-top: -20px;}
  
     #main-container-right img {
-        width: 300px;
-        margin: -90px;
+        width: 100px;
+        /* margin: -90px; */
         margin-top: -400px;
     }
 
