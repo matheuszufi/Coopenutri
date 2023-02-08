@@ -493,9 +493,9 @@ footer {
     #bottom-right ul {justify-content: end; padding: 24px}
     #bottom-right ul li {margin: 4px; font-size: 16px;text-align: center;}
     #divhidden {display: none;}
-    #main-container h1 img{width: 300px;}
+    #main-container h1 img{width: 200px; margin-top: -300px;}
     main {
-        height: 75vh;
+        height: 800px;
         margin-top: 0px;
     /* background-size: 500%; */
     }
